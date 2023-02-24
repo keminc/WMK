@@ -170,7 +170,7 @@
     <PropertyGroup Condition="'$(Cfg_1_Android)'!=''">
         <AUP_ACCESS_MOCK_LOCATION>true</AUP_ACCESS_MOCK_LOCATION>
         <VerInfo_Build>1</VerInfo_Build>
-        <VerInfo_Keys>package=com.keminc.$(MSBuildProjectName);label=$(MSBuildProjectName);versionCode=1;versionName=1.0.1;persistent=False;restoreAnyVersion=False;installLocation=preferExternal;largeHeap=False;theme=TitleBar;hardwareAccelerated=true;apiKey=AIzaSyCMkulmd6Rq3trPE5R_-MUsqb0hCtZC4Xw</VerInfo_Keys>
+        <VerInfo_Keys>package=com.keminc.$(MSBuildProjectName);label=$(MSBuildProjectName);versionCode=1;versionName=1.0.1;persistent=False;restoreAnyVersion=False;installLocation=preferExternal;largeHeap=False;theme=TitleBar;hardwareAccelerated=true;apiKey=</VerInfo_Keys>
         <Android_NotificationAccentColor>#000000</Android_NotificationAccentColor>
         <DCC_IntegerOverflowCheck>true</DCC_IntegerOverflowCheck>
         <AUP_ACCESS_NETWORK_STATE>true</AUP_ACCESS_NETWORK_STATE>
