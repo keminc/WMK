@@ -1,0 +1,24 @@
+﻿# 10.04.2020 23:33:03 Func: getConfigParam. Info: mykids = 1586008124 User1 1586009267 User3
+action=getkids
+data.mykids=1586008124 User1 1586009267 User3 
+data.result=done
+data.message=Kids count: 2
+
+# 10.04.2020 23:33:03 Func: getKids. Get params: 
+# 10.04.2020 23:33:03 Func: getKids. Is successfully
+# 10.04.2020 23:33:03 Func: sendJSONtoSrv. Set  WKMServerAvaible: True
+# 10.04.2020 23:33:02 Func: getConfigParam. Info: accesskey = C035CughUmZpzxuX7DhLstj54tLgMry9prvfN2u8tOR5N7jXV5
+# 10.04.2020 23:33:02 Func: getKids.
+# 10.04.2020 23:33:02 Func: doLogon: Access key is VALID
+action=getdata
+data.result=done
+data.message=Access key is valid.
+
+# 10.04.2020 23:33:02 Func: isValid_AccessKey. Data from srv:
+# 10.04.2020 23:33:02 Func: sendJSONtoSrv. Set  WKMServerAvaible: True
+# 10.04.2020 23:33:02 Func: getConfigParam. Info: accesskey = C035CughUmZpzxuX7DhLstj54tLgMry9prvfN2u8tOR5N7jXV5
+# 10.04.2020 23:33:02 Func: getConfigParam. Info: myparent = email2
+# 10.04.2020 23:33:02 Func: getConfigParam. Info: pass = pass123
+# 10.04.2020 23:33:02 Func: getConfigParam. Info: usermail = Email2
+# 10.04.2020 23:33:02 Func: getConfigParam. Info: username = User2
+# 10.04.2020 23:33:02 Func: getConfigParam. Info: userid = 1586009040

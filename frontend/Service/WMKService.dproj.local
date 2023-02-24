@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.313,C:\Projects\WhereIsMyKid\Frontend\uTransport.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.004,C:\Projects\Unit1.dfm=C:\Projects\WhereIsMyKid\Frontend\Service\uWMKService.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.319,=C:\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.090,=C:\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.004,C:\Projects\Unit1.pas=C:\Projects\WhereIsMyKid\Frontend\Service\uWMKService.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.014,=C:\Projects\WhereIsMyKid\Frontend\uLogon.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.358,=C:\Projects\WhereIsMyKid\Frontend\uLogon.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.462,C:\Projects\Project1.dproj=C:\Projects\WhereIsMyKid\Frontend\Service\WMKService.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.865,=C:\Projects\WhereIsMyKid\Frontend\Service\uTransport_Service.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.225,=C:\Projects\WhereIsMyKid\Frontend\uTransport.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android="192.168.1.95:5555"/>
+	</ActiveMobileDevice>
+</BorlandProject>

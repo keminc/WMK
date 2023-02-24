@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{5AB62532-66E3-41DC-93AB-5E60650E77D5}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="WMK.dproj">
+            <Dependencies>Service\WMKService.dproj</Dependencies>
+        </Projects>
+        <Projects Include="Service\WMKService.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="WMK" DependsOnTargets="WMKService">
+        <MSBuild Projects="WMK.dproj"/>
+    </Target>
+    <Target Name="WMK:Clean" DependsOnTargets="WMKService:Clean">
+        <MSBuild Projects="WMK.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="WMK:Make" DependsOnTargets="WMKService:Make">
+        <MSBuild Projects="WMK.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="WMKService">
+        <MSBuild Projects="Service\WMKService.dproj"/>
+    </Target>
+    <Target Name="WMKService:Clean">
+        <MSBuild Projects="Service\WMKService.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="WMKService:Make">
+        <MSBuild Projects="Service\WMKService.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="WMK;WMKService"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="WMK:Clean;WMKService:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="WMK:Make;WMKService:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

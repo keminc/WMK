@@ -1,0 +1,6 @@
+2020-06-25 22:05:08.196038	LOG. Action: validAccessKey. From user 1586009040. Result: done. Message: Access key is valid.
+2020-06-25 22:05:08.839187	LOG. Action: getkids. From user 1586009040. Result: done. Message: Kids count: 2
+2020-06-25 22:05:09.403794	LOG. Action: getdata. From user 1586009040. Result: error. Message: Data not found.
+2020-06-25 22:05:09.408985	LOG. Action: getdata. From user 1586009040. Result: error. Message: Data not found.
+2020-06-25 22:05:09.459244	LOG. Action: getgps. From user 1586009040. Result: error. Message: GPS data for was not found.
+2020-06-25 22:05:27.075649	LOG. Action: validAccessKey. From user 1586009040. Result: done. Message: Access key is valid.

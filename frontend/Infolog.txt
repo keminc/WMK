@@ -1,0 +1,2 @@
+Facebook id: 1482486558565098 (whereismykids)
+Doc:  https://developers.facebook.com/docs/facebook-login/login-flow-for-web-no-jssdk/

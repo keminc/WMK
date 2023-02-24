@@ -1,0 +1,67 @@
+CREATE DATABASE "wmk.db"
+    WITH 
+    OWNER = userwmk
+    ENCODING = 'UTF8'
+    CONNECTION LIMIT = -1;
+
+GRANT ALL ON DATABASE "wmk.db" TO userwmk WITH GRANT OPTION;
+
+
+create table locations
+ ALTER USER postgres PASSWORD 'psql#1';
+ ALTER USER userwmk PASSWORD 'userwmk1';
+GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO userwmk;
+
+ 
+install PostGIS - not work for Postgres V12 - whait for update PostGIS
+				CREATE EXTENSION postgis;  - error
+				
+				
+				
+Change PostgreSQL port to 9876  (ip 185.58.193.5)
+  iptables -A INPUT -p tcp -m tcp --dport 9876  -m conntrack --ctstate NEW,ESTABLISHED -j ACCEPT
+service iptables save
+service iptables restart
+
+#MySQL
+!---- Connection-------
+185.58.193.5:3306
+
+yum install mariadb mariadb-libs mariadb-server
+mysql: root / MSQL#psw0rd43
+
+/usr/bin/mysqladmin -u root password MSQL#psw0rd43
+
+mysql -uroot -p 
+
+CREATE DATABASE wmk;
+GRANT ALL ON wmk.* TO 'wmkru'@'%' IDENTIFIED BY 'wmkru_p@s0rd';
+GRANT ALL ON wmk.* TO 'wmkru'@'localhost' IDENTIFIED BY 'wmkru_p@s0rd';
+
+CREATE TABLE locations(
+	recid INTEGER PRIMARY KEY AUTO_INCREMENT ,
+	userid INTEGER NOT NULL,
+	timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+	locationX VARCHAR(10),
+	locationY VARCHAR(10));
+	
+	
+INSERT INTO 	locations SET userid=0, locationX='55,669', locationY='52,669';
+	
+SELECT * FROM locations;
+
+!----------------------
+
+
+
+#Install PAServer from Delphi for test
+	/opt/PAServer/
+	iptables -A INPUT -p tcp -m tcp --dport 64211 -m conntrack --ctstate NEW,ESTABLISHED -j ACCEPT
+	
+	yum install glibc-static  glibc-devel zlib-devel compat-libstdc++-33 compat-gcc-44-c++
+	
+############################################
+
+	
+	
+	

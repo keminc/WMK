@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.143,=C:\Projects\WhereIsMyKid\Frontend\Service\uWMKService.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.833,C:\Projects\WhereIsMyKid\Frontend\Service\uWMKService.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.853,C:\Projects\WhereIsMyKid\Frontend\Service\uWMKService.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.354,=C:\Projects\WhereIsMyKid\Frontend\Service\uWMKService.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.064,C:\Projects\WhereIsMyKid\Frontend\Unit2.pas=C:\Projects\WhereIsMyKid\Frontend\uLogon.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.704,=C:\Projects\WhereIsMyKid\Frontend\Service\uTransport_Service.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.597,=C:\Projects\WhereIsMyKid\Frontend\Service\uWMKService.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.922,C:\Projects\WhereIsMyKid\Frontend\uTransport.pas=C:\Projects\WhereIsMyKid\Frontend\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.098,C:\Projects\WhereIsMyKid\Frontend\uLogon.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.161,C:\Users\kem\Documents\Embarcadero\Studio\Projects\Android\WhereIsMyKid\Frontend\WMK.dproj=C:\Users\Public\Documents\Embarcadero\Studio\20.0\Samples\Object Pascal\Mobile Snippets\FireDACSQLite\FireDAC_SQLite.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.528,=C:\Projects\WhereIsMyKid\Frontend\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.162,=C:\Projects\WhereIsMyKid\Frontend\Service\Android\Debug\wmkService.jar</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.609,=C:\Projects\WhereIsMyKid\Frontend\Service\Android\Debug\WMKService.jar</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.688,C:\Projects\WhereIsMyKid\Frontend\Service\Android\Debug\wmkService.jar=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.757,=C:\Projects\WhereIsMyKid\Frontend\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.994,=C:\Projects\WhereIsMyKid\Frontend\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.302,=C:\Projects\WhereIsMyKid\Frontend\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.036,=C:\Projects\WhereIsMyKid\Frontend\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.760,C:\Projects\WhereIsMyKid\Frontend\Unit1.pas=C:\Projects\WhereIsMyKid\Frontend\uHardwareAndroid.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.579,=C:\Projects\WhereIsMyKid\Frontend\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.929,=C:\Projects\WhereIsMyKid\Frontend\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.799,=C:\Projects\WhereIsMyKid\Frontend\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.841,=C:\Projects\WhereIsMyKid\Frontend\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.169,=C:\Projects\WhereIsMyKid\Frontend\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.636,=C:\Projects\WhereIsMyKid\Frontend\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.168,=C:\Projects\WhereIsMyKid\Frontend\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.538,=C:\Projects\WhereIsMyKid\Frontend\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.034,=C:\Projects\WhereIsMyKid\Frontend\Unit1.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android="192.168.1.95:5555" Android64="192.168.1.95:5555"/>
+	</ActiveMobileDevice>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="android-support-v4.dex.jar"/>
+    <File Path="cloud-messaging.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-ads-base.17.2.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-ads-identifier.16.0.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-ads-lite.17.2.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-ads.17.2.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-analytics-impl.16.0.8.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-analytics.16.0.8.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-base.16.0.1.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-basement.16.2.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-gass.17.2.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-identity.16.0.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-maps.16.1.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-measurement-base.16.4.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-measurement-sdk-api.16.4.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-stats.16.0.1.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-tagmanager-v4-impl.16.0.8.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-tasks.16.0.1.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-wallet.16.0.1.dex.jar"/>
+    <File Path="com-google-firebase.firebase-analytics.16.4.0.dex.jar"/>
+    <File Path="com-google-firebase.firebase-common.16.1.0.dex.jar"/>
+    <File Path="com-google-firebase.firebase-iid-interop.16.0.1.dex.jar"/>
+    <File Path="com-google-firebase.firebase-iid.17.1.1.dex.jar"/>
+    <File Path="com-google-firebase.firebase-measurement-connector.17.0.1.dex.jar"/>
+    <File Path="com-google-firebase.firebase-messaging.17.5.0.dex.jar"/>
+    <File Path="fmx.dex.jar"/>
+    <File Path="google-play-billing.dex.jar"/>
+    <File Path="google-play-licensing.dex.jar"/>
+    <File Path="Service\Android\Debug\WMKService.jar"/>
+    <File Path="android-support-v4.dex.jar"/>
+    <File Path="cloud-messaging.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-ads-base.17.2.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-ads-identifier.16.0.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-ads-lite.17.2.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-ads.17.2.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-analytics-impl.16.0.8.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-analytics.16.0.8.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-base.16.0.1.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-basement.16.2.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-gass.17.2.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-identity.16.0.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-maps.16.1.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-measurement-base.16.4.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-measurement-sdk-api.16.4.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-stats.16.0.1.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-tagmanager-v4-impl.16.0.8.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-tasks.16.0.1.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-wallet.16.0.1.dex.jar"/>
+    <File Path="com-google-firebase.firebase-analytics.16.4.0.dex.jar"/>
+    <File Path="com-google-firebase.firebase-common.16.1.0.dex.jar"/>
+    <File Path="com-google-firebase.firebase-iid-interop.16.0.1.dex.jar"/>
+    <File Path="com-google-firebase.firebase-iid.17.1.1.dex.jar"/>
+    <File Path="com-google-firebase.firebase-measurement-connector.17.0.1.dex.jar"/>
+    <File Path="com-google-firebase.firebase-messaging.17.5.0.dex.jar"/>
+    <File Path="fmx.dex.jar"/>
+    <File Path="google-play-billing.dex.jar"/>
+    <File Path="google-play-licensing.dex.jar"/>
+    <File Path="Service"/>
+    <File Path="Service\uWMKService.pas"/>
+    <File Path="Service\uWMKService.dfm"/>
+    <File Path="Service\uTransport_Service.pas"/>
+    <File Path="uTransport.pas"/>
+  </ProjectSortOrder>
+</BorlandProject>
